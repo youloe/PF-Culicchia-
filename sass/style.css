@@ -1,0 +1,69 @@
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+h1 {
+  color: red;
+  font-size: 3rem;
+  justify-content: center;
+  text-align: center;
+  font-family: pixelmine;
+  margin-top: 200px;
+}
+
+p {
+  text-align: center;
+  margin-top: 600px;
+}
+
+/*# tipgrafia de otra fuente */
+@font-face {
+  font-family: pixel;
+  src: url(../tipografia/Pixel\ Georgia\ Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imgX {
+  width: 150px;
+  height: 120px;
+}
+
+.imgsize {
+  text-align: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+body {
+  background-image: url(../img/fantasy_desktop_wallpaper_0942_by_grimwalds_ai_fantasy_dgem1dx-pre-transformed.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: pixel;
+}
+
+h1, h2 {
+  color: red;
+  font-size: 3rem;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1px;
+}
+
+p {
+  text-align: center;
+  margin-top: 600px;
+  color: red;
+  font-family: pixel;
+  font-size: 4px;
+}/*# sourceMappingURL=style.css.map */

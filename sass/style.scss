@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+::-webkit-scrollbar{width: 0;height: 0;}
+// variables colores
+$color-white:#B22222;
+$color-magico:yellow;
+$color-nieve:white;
+// variables medidas
+
+
+
+
+
+p{text-align: center;margin-top: 600px;}
+
+/*# tipgrafia de otra fuente */
+@font-face {
+    font-family: pixel;
+    src: url(../tipografia/Pixel\ Georgia\ Bold.ttf);
+  }
+  @font-face {
+    font-family: pixelE;
+    src: url(../tipografia/alagard.ttf);
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box
+  
+  }
+  
+  /*# inicio page*/
+  .imgX{width: 150px;height:120px ;}
+  .imgsize{text-align: center;justify-content: center;margin-top:300px; }
+  .imgKring{width: 150px;height:120px}
+  .imgKringsize{margin-top: 900px; text-align: center}
+  .skullx{width: 451px;height:420px;}
+  .unir{text-align: center;
+    margin-top: 20px;
+    color: #B22222;
+    font-family: pixel;
+    font-size: 40px;
+    margin-right: 250px;
+    margin-left: 250px;}
+  .body{background-image: url(../img/fantasy_desktop_wallpaper_0942_by_grimwalds_ai_fantasy_dgem1dx-pre-transformed.jpeg);
+    height:100vh ;   
+     ;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+  
+   
+  
+  .ht{text-align: center;
+    margin-top: 1000px;
+    color: #B22222;
+    font-family: pixel;
+    font-size: 40px;
+    margin-right: 250px;
+    margin-left: 250px;}
+
+  
+  .areeady{
+    text-align: center;
+    margin-top: 10px;
+    color: #B22222;
+    font-family: pixel;
+    font-size: 40px;
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+  
+  .areeady2{text-align: center;
+    margin-top: 10px;
+    color: #B22222;
+    font-family: pixel;
+    font-size: 60px;}
+ .areeady3{text-align: center;
+  margin-top: 51px;
+  color: #B22222;
+  font-family: pixel;
+  font-size: 60px;}
+  
+ .p{text-align: center;
+    margin-top: 1000px;
+    color: #B22222;
+    font-family: pixel;
+    font-size: 40px;
+    margin-right: 250px;
+    margin-left: 250px;}
+
+  /*# entrada page*/
+  a{text-decoration: none;font-family: pixel;font-size: 30px;margin-left: 4.5rem;color:gray;}
+  .header{display: flex;justify-content: space-between;height: 100px;background-image: url(../img/image.png);align-items: center;padding: 40px;}
+  .nav{margin-left: 1.5rem;}
+  nav a:hover{color: gold;}
+  .logo{display: flex;font-family: pixelE;font-size: 30px;color: white;}
+  .logoimg{height: 50px;margin-right: 10px;}
+  .backgraund{background-color: black;}
+  .backgraund2{background-color: green;}
+  .backgraund3{background-image: url(../img/chris-galloway-810b9966923871-5b27e4098f1c3.jpg);background-repeat: no-repeat;background-size: cover;}
+  .backgraundIMG{background-image: url(../img/HPLpDsWugmZCH-OXqqK5H_1sGEAetNnniX9snvHVV7M.webp);background-repeat: no-repeat;background-size: cover;}
+
+  .img1{padding-right: 2rem;}
+
+  .wrapper{margin: 150px auto;width: 90%;}
+
+  .text-box{color:white;margin-top: 20px;font-size: 29px;margin-left: 4px;padding: 10px;font-family: pixel;}
+
+.imgH{float: left ;width: 500px;height: 320px;border:3px solid white;border-radius: 30px;margin-right: 15px;}
+.imgHx{float: right ;width: 500px;height: 320px;border:3px solid white;border-radius: 30px;margin-right: 15px;}
+.titloMAIN{color: white;text-align: center;font-family: pixelE;font-size: 50px;color: yellow;}
+.tituloH1{font-family: pixel;text-align: center;color: $color-magico;margin-top: 70px;font-size: 50px;padding: 2px;font-family: pixelE;} 
+.skullwelcome{text-align: center;}
+.parrafo{font-family: pixel;color: $color-nieve;text-align: center;margin-top: 20px;margin-right: 550px;
+  margin-left: 550px ;font-size: 30px ;}
+  /*# keyframe*/
+  
+  .footersize{margin-top: 20px;}
+  section{ margin-top: -800px;
+position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+
+  }
+  section .wave{position:absolute;bottom: 0;left:0;width: 100%;height:100px ;background: url(../img/NicePng_lava-png_2334439.png);background-size: 1000px 100px;}
+  section .wave.wave1{animation: animate 30s linear infinite;z-index:1000 ;opacity: 1;animation-delay: 0s;bottom:0;}
+  section .wave.wave2{animation: animate2 15s linear infinite ;z-index:999 ;opacity: 0.5;animation-delay: -5s;bottom:10px;}
+
+  
+  
+
+  @keyframes animate{0%{background-position-x:0;}100%{background-position-x:1000px ;}}
+  @keyframes animate2{0%{background-position-x:0;}100%{background-position-x:-1000px ;}}
+  
+  .car{margin-right: 52px;margin-left: 65px;;width: 500px;height: 320px;text-align: center;}
+  .card-group{margin-top: 20px;padding: 30px;text-align: center;}
+  .card-body{border:3px solid #CC9D77;margin-top: 20px;border-radius: 30px;margin-right: 5px;margin-left: 5px;margin-top: 22px ;background-color: #CC9D77 ;opacity:  30px;}
+  .card-img-top{border:5px solid #A9A9A9;margin-top: 20px;border-radius: 3400px;margin-right: 5px;margin-left: 5px;margin-top: 2px;}
+  .card-title{font-family: pixelE;font-size: 30px;margin-top: 5px;}
+  .card-text{font-family: pixel;font-weight: 200;margin-right: 50px;
+    margin-left: 50px;padding-bottom: 10px;color: #654321;}
+
+    .parrafoORO{font-family: pixel; color: yellow;}
+
+
+  a{text-decoration: none;font-family: pixel;font-size: 30px;margin-left: 4.5rem;color:gray;}
+    .-nav{margin-left: 1.5rem;display: flex;font-size: 30px;color: gray;}
+    .-nav a:hover{color: gold;}
+    
+    #hero{min-height: 100vh;position: relative;}
+
+    video{position:absolute;top: 0;left: 0;width:100% ;height:100% ;object-fit: cover;}
+
+  .finalH1{font-family: pixel;text-align: center;color: white;margin-top: 20px;}
+    .promo{padding-top: 350px;
+    display: flex;
+  flex-direction:column ;
+justify-content: center;
+align-items: center;
+width: 60%;
+margin:auto ;
+position: relative;
+z-index: 2;}
+
+.promo h1 {font-size: 3.5rem;text-align: center;color: aliceblue;font-weight: 700;font-family: pixelE;}
+
+@media (max-width:700px){header{flex-direction: column;} nav{padding: 10px 0px;}} 
